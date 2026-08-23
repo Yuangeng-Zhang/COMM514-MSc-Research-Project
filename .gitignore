@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific exclusions
+
+# Raw benchmark datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Local model files
+models/
+
+# Environment variables and API keys
+.env
+.env.*
+
+# Temporary experiment files
+*.tmp
+*.log
