@@ -1,0 +1,36 @@
+{
+  "total_cases": 20,
+  "ground_truth_distribution": {
+    "INCORRECT": 16,
+    "NOT_ATTEMPTED": 4
+  },
+  "self_verification": {
+    "evaluated_cases": 16,
+    "true_positive": 2,
+    "true_negative": 0,
+    "false_positive": 0,
+    "false_negative": 14,
+    "accuracy": 0.125,
+    "precision": 1.0,
+    "recall": 0.125,
+    "f1": 0.2222222222222222
+  },
+  "cross_verification": {
+    "evaluated_cases": 16,
+    "true_positive": 9,
+    "true_negative": 0,
+    "false_positive": 0,
+    "false_negative": 7,
+    "accuracy": 0.5625,
+    "precision": 1.0,
+    "recall": 0.5625,
+    "f1": 0.72
+  },
+  "paired_comparison": {
+    "both_correct": 2,
+    "self_only_correct": 0,
+    "cross_only_correct": 7,
+    "both_wrong": 7,
+    "disagreements": 7
+  }
+}
