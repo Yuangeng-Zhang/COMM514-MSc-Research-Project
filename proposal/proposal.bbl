@@ -7,6 +7,13 @@ Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang,
   taxonomy, challenges, and open questions.
 \newblock {\em ACM Transactions on Information Systems}, 43(2):1--55, 2025.
 
+\bibitem{lin2022truthfulqa}
+Stephanie Lin, Jacob Hilton, and Owain Evans.
+\newblock {TruthfulQA}: Measuring how models mimic human falsehoods.
+\newblock In {\em Proceedings of the 60th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 3214--3252, Dublin,
+  Ireland, 2022. Association for Computational Linguistics.
+
 \bibitem{manakul2023selfcheckgpt}
 Potsawee Manakul, Adian Liusie, and Mark Gales.
 \newblock {SelfCheckGPT}: Zero-resource black-box hallucination detection for
@@ -74,16 +81,16 @@ Zhibin Gou, Zhihong Shao, Yeyun Gong, Yelong Shen, Yujiu Yang, Nan Duan, and
   tool-interactive critiquing.
 \newblock In {\em International Conference on Learning Representations}, 2024.
 
-\bibitem{wei2024simpleqa}
-Jason Wei, Karina Nguyen, Hyung~Won Chung, Yunxin~Joy Jiao, Spencer Papay,
-  Amelia Glaese, John Schulman, and William Fedus.
-\newblock Measuring short-form factuality in large language models.
-\newblock {\em arXiv preprint arXiv:2411.04368}, 2024.
-
 \bibitem{haas2025simpleqaverified}
 Lukas Haas, Gal Yona, Giovanni D'Antonio, Sasha Goldshtein, and Dipanjan Das.
 \newblock {SimpleQA Verified}: A reliable factuality benchmark to measure
   parametric knowledge.
 \newblock {\em arXiv preprint arXiv:2509.07968}, 2025.
+
+\bibitem{wei2024simpleqa}
+Jason Wei, Karina Nguyen, Hyung~Won Chung, Yunxin~Joy Jiao, Spencer Papay,
+  Amelia Glaese, John Schulman, and William Fedus.
+\newblock Measuring short-form factuality in large language models.
+\newblock {\em arXiv preprint arXiv:2411.04368}, 2024.
 
 \end{thebibliography}

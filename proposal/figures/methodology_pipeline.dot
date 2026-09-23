@@ -1,0 +1,65 @@
+digraph MethodologyPipeline {
+
+    graph [
+        rankdir=LR,
+        bgcolor="white",
+        pad=0.05,
+        nodesep=0.20,
+        ranksep=0.40
+    ];
+
+    node [
+        shape=box,
+        style="rounded",
+        fontname="Arial",
+        fontsize=10,
+        margin="0.10,0.07"
+    ];
+
+    edge [
+        fontname="Arial",
+        fontsize=9,
+        arrowsize=0.65
+    ];
+
+    benchmark [
+        label="SimpleQA Verified\nQuestions"
+    ];
+
+    generator [
+        label="Generator Models\nMultiple LLM Families"
+    ];
+
+    answers [
+        label="Generated\nAnswers"
+    ];
+
+    grading [
+        label="Automatic Ground-Truth Grading\nCorrect / Incorrect / Not Attempted"
+    ];
+
+    verification [
+        label="Verification\nSelf / Within-Family / Cross-Family"
+    ];
+
+    evaluation [
+        label="Verification Evaluation\nPerformance and Pairing Comparison"
+    ];
+
+    errors [
+        label="Shared-Error Analysis\nJaccard Similarity"
+    ];
+
+    benchmark -> generator;
+    generator -> answers;
+
+    answers -> grading;
+    answers -> verification;
+
+    grading -> evaluation;
+    verification -> evaluation;
+
+    evaluation -> errors;
+
+    { rank=same; grading; verification; }
+}
