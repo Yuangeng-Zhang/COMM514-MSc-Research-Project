@@ -1,0 +1,33 @@
+{
+  "development_questions": 50,
+  "ground_truth_distribution": {
+    "CORRECT": 8,
+    "INCORRECT": 16,
+    "NOT_ATTEMPTED": 26
+  },
+  "attempted_answers": 24,
+  "self_cases": 24,
+  "cross_cases": 24,
+  "self_metrics": {
+    "tp": 1,
+    "tn": 8,
+    "fp": 0,
+    "fn": 15,
+    "accuracy": 0.375,
+    "precision": 1.0,
+    "recall": 0.0625,
+    "f1": 0.11764705882352941,
+    "false_positive_rate": 0.0
+  },
+  "cross_metrics": {
+    "tp": 9,
+    "tn": 8,
+    "fp": 0,
+    "fn": 7,
+    "accuracy": 0.7083333333333334,
+    "precision": 1.0,
+    "recall": 0.5625,
+    "f1": 0.72,
+    "false_positive_rate": 0.0
+  }
+}

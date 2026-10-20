@@ -1,0 +1,30 @@
+[
+  {
+    "benchmark": "SimpleQA",
+    "questions": 50,
+    "attempted_answers": 35,
+    "correct": 3,
+    "incorrect": 32,
+    "not_attempted": 15,
+    "self_recall": 0.15625,
+    "cross_recall": 0.4375,
+    "self_f1": 0.2702702702702703,
+    "cross_f1": 0.5957446808510638,
+    "recall_gain": 0.28125,
+    "f1_gain": 0.3254744105807935
+  },
+  {
+    "benchmark": "PopQA",
+    "questions": 50,
+    "attempted_answers": 24,
+    "correct": 8,
+    "incorrect": 16,
+    "not_attempted": 26,
+    "self_recall": 0.0625,
+    "cross_recall": 0.5625,
+    "self_f1": 0.11764705882352941,
+    "cross_f1": 0.72,
+    "recall_gain": 0.5,
+    "f1_gain": 0.6023529411764705
+  }
+]
