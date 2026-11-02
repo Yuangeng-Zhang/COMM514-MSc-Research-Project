@@ -1,0 +1,28 @@
+{
+  "questions_compared": 50,
+  "gemma_incorrect": 32,
+  "gptoss_incorrect": 35,
+  "shared_incorrect_items": 25,
+  "incorrect_union": 42,
+  "error_jaccard": 0.5952380952380952,
+  "cross_verification_on_gemma_errors": {
+    "shared_error": {
+      "cases": 25,
+      "detected": 9,
+      "missed": 16,
+      "detection_rate": 0.36
+    },
+    "gptoss_correct": {
+      "cases": 1,
+      "detected": 1,
+      "missed": 0,
+      "detection_rate": 1.0
+    },
+    "gptoss_not_attempted": {
+      "cases": 6,
+      "detected": 4,
+      "missed": 2,
+      "detection_rate": 0.6666666666666666
+    }
+  }
+}

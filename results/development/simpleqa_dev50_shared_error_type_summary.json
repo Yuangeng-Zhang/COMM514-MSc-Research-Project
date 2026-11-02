@@ -1,0 +1,22 @@
+{
+  "total_shared_error_items": 25,
+  "same_factual_error": {
+    "cases": 3,
+    "detected": 1,
+    "missed": 2,
+    "detection_rate": 0.3333333333333333
+  },
+  "different_factual_error": {
+    "cases": 21,
+    "detected": 8,
+    "missed": 13,
+    "detection_rate": 0.38095238095238093
+  },
+  "indeterminate": {
+    "cases": 1,
+    "detected": 0,
+    "missed": 1,
+    "detection_rate": 0.0
+  },
+  "same_minus_different_detection_rate": -0.047619047619047616
+}

@@ -1,0 +1,354 @@
+﻿dataset_index,question,reference_answer,gemma_answer,gptoss_answer,cross_prediction,shared_error_type
+10,"In which month and year did Khusro Bakhtiar (former Federal Minister for Planning, Development, and Reforms, Pakistan) announce that the government was considering establishing a Pak-China business council to promote the private sector's role in the China-Pakistan Economic Corridor (CPEC)?",June 2019,October 2015,March 2023,CORRECT,different_factual_error
+104,"Which newspaper did György Lukács write, ""The possession of the power of the state is also a moment for the destruction of the oppressing classes. A moment we have to use""?",Népszava,*Népszabadság*,Népszabadság.,CORRECT,same_factual_error
+112,"Specify the month, and year in which Activision Blizzard announced the upcoming establishment of a new esports division.","October, 2015",January 2018,March 2023,CORRECT,different_factual_error
+116,Who preceded Oscar Alende as governor of the Province of Buenos Aires?,Emilio Alvaro Bonnecarrere,The governor who preceded Oscar Alende was **Miguel Primo de Rivera**.,Juan Carlos Maccari.,INCORRECT,different_factual_error
+181,What school was Aleister Crowley first sent to at the age of 8?,H. T. Habershon's evangelical Christian boarding school,Netherleaze School,"St. Paul’s School in Hammersmith, London.",INCORRECT,different_factual_error
+207,During which years was Otto Schlüter a professor of geography at the University of Halle?,1911 to 1959,Otto Schlüter was a professor of geography at the University of Halle from 1919 to 1933.,Answer: 1920–1933.,CORRECT,different_factual_error
+213,Which month and year was William Harrison Standley appointed as the American Ambassador to the USSR?,February 1942,William Harrison Standley was appointed as the American Ambassador to the USSR in November 1933.,March 1949.,INCORRECT,different_factual_error
+257,What is the length in meters of the TCG Yavuz (F240) ship of the Turkish Navy?,110.50 m (acceptable range: anything between 109.39 and 111.61 m),The TCG Yavuz (F240) is 114.3 meters long.,The TCG Yavuz (F240) has an overall length of **133.5 meters**.,CORRECT,different_factual_error
+264,"Which architect designed the old post office at the corner of Jacques-Cartier and Saint-Jacques streets in Saint-Jean-sur-Richelieu, which was completed in 1909?",J. E. H. Benoît,The old post office was designed by the Department of Public Works (specifically the Office of the Chief Architect of Canada).,"We need to answer the question: Which architect designed the old post office at the corner of Jacques-Cartier and Saint-Jacques streets in Saint-Jean-sur-Richelieu, completed in 1909? We need to find the architect. Let's research. I don't have internet, but I can recall some knowledge. The old post office in Saint-Jean-sur-Richelieu might be a heritage building. The architect could be ""Louis-Philippe Hébert"" or ""J. P. L. (something)"". But let's think: In Quebec, many post offices built in early 20th century were designed by the federal Department of Public Works, often by architects like ""John A. McDonald"" or ""John A. McDonald"" (not the Canadian PM). Actually, the federal government had a ""Public Works Department"" with architects like ""John A. McDonald"" (architect of many post offices). But I'm not sure.
+
+Alternatively, the building might be designed by ""J. P. L. (something)"". Let's search memory: The old post office in Saint-Jean-sur-Richelieu is a heritage building. I recall reading about ""Poste de Saint-Jean-sur-Richelieu"" built 1909, designed by ""J. P. L. (something)"". Wait, maybe it's ""J. P. L. (something)"".
+
+Let's think of known Quebec architects of that era: ""J. P. L. (something)"", ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's search memory: The old post office in Saint-Jean-sur-Richelieu is a heritage building. I recall reading about ""Poste de Saint-Jean-sur-Richelieu"" built 1909, designed by ""J. P. L. (something)"".
+
+But maybe the architect is ""J. P. L. (something)"".
+
+Let's think of known architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's step back: The question: ""Which architect designed the old post office at the corner of Jacques-Cartier and Saint-Jacques streets in Saint-Jean-sur-Richelieu, which was completed in 1909?"" So we need to provide the name of the architect.
+
+We can search memory: The old post office in Saint-Jean-sur-Richelieu is a heritage building. The building might be known as ""Poste de Saint-Jean-sur-Richelieu"" or ""Poste de Saint-Jean"". The architect might be ""J. P. L. (something)"".
+
+Let's recall: Many post offices built in Quebec in early 1900s were designed by ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's recall: The old post office in Saint-Jean-sur-Richelieu might be part of the ""Poste de Saint-Jean-sur-Richelieu"" built 1909. The architect might be ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's think of known architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is going nowhere.
+
+Let's search memory: The old post office in Saint-Jean-sur-Richelieu is a heritage building. I recall reading about ""Poste de Saint-Jean-sur-Richelieu"" built 1909, designed by ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should search for ""Saint-Jean-sur-Richelieu old post office architect 1909"".
+
+I recall that the old post office in Saint-Jean-sur-Richelieu was designed by ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not working.
+
+Let's think of known architects of the Department of Public Works: ""John A. McDonald"" (architect of many post offices). He was the chief architect of the Department of Public Works from 1900 to 1915. He designed many post offices in Quebec. So it's plausible that he designed this one. But the question likely expects a specific name: ""John A. McDonald"".
+
+Alternatively, the architect might be ""J. P. L. (something)"".
+
+Let's check: John A. McDonald was a Canadian architect who served as the chief architect for the Department of Public Works. He designed many post offices, including the one in Saint-Jean-sur-Richelieu. So the answer could be ""John A. McDonald"".
+
+But I'm not entirely sure. Let's verify: The old post office at the corner of Jacques-Cartier and Saint-Jacques in Saint-Jean-sur-Richelieu was built in 1909. The architect might be ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Let's search memory: The old post office in Saint-Jean-sur-Richelieu is a heritage building. The architect might be ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not working.
+
+Let's consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should search for ""Saint-Jean-sur-Richelieu post office 1909 architect"".
+
+I recall reading about ""Poste de Saint-Jean-sur-Richelieu"" built 1909, designed by ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is going nowhere.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The question is likely from a trivia or heritage database. The answer might be ""J. P. L. (something)"".
+
+But maybe the answer is ""J. P. L. (something)"".
+
+Alternatively, the answer might be ""J. P. L. (something)"".
+
+Ok, maybe we should search memory: The old post office in Saint-Jean-sur-Richelieu is a heritage building. The architect might be ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not working.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's try a different approach: The old post office at the corner of Jacques-Cartier and Saint-Jacques in Saint-Jean-sur-Richelieu. The building might be known as ""Poste de Saint-Jean-sur-Richelieu"" built 1909. The architect might be ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should search memory: The old post office in Saint-Jean-sur-Richelieu was designed by ""J. P. L. (something)"".
+
+Wait, maybe the architect is ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+Let's think of known Quebec architects: ""J. P. L. (something)"", ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, maybe we should consider that the building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+This is not helpful.
+
+Let's step back: The building might be designed by ""J. P. L. (something)"".
+
+Alternatively, the building might be designed by ""J. P. L. (something)"".
+
+Ok, I'm stuck.
+
+I think the best guess is ""John A. McDonald"". Let's answer that.John A. McDonald.",INCORRECT,different_factual_error
+325,"What is the name of the small town near which the Douglas C-47A ZS-EJK, operated by Comair Ltd, crashed into a mountain in October 1982?",Graskop,The town is **Kanyama**.,Saldanha.,CORRECT,different_factual_error
+366,The statue of Efraín González Luna is installed in which Mexican state?,Jalisco,Chihuahua,Answer: Oaxaca.,INCORRECT,different_factual_error
+374,At which art school was Will Hicok Low an instructor in 1890?,National Academy of Design,Art Students League,Answer: The Art Students League of New York.,CORRECT,same_factual_error
+384,"In what year did ""Drawings and Prints"" become its own department within the Pierpont Morgan Library?",1945,1966,1900,CORRECT,different_factual_error
+419,"What was George Frederic Watts' ""After the Deluge"" named when originally exhibited in 1886?",The Sun,"It was originally exhibited as ""The Aftermath"".",It was first shown at the Royal Academy in 1886 under the title **“The Flood.”**,CORRECT,different_factual_error
+422,"Within plus or minus one minute, when was Marquinhos given a yellow card in the 2022 World Cup quarterfinals?",77 (acceptable range: anything between 76 and 78),Marquinhos was given a yellow card in the 103rd minute.,Answer: 71st minute.,CORRECT,different_factual_error
+441,Name the person who became the president of Entertainment at Fox Broadcasting in September 1995 but left Fox in 1996 and soon became the president of HBO.,John Matoian,Chris Albrecht,David L. Brown,CORRECT,different_factual_error
+526,At what age did Princess Bathildis of Anhalt-Dessau die?,64,Princess Bathildis of Anhalt-Dessau died at the age of 81.,70 years old.,CORRECT,different_factual_error
+556,"Which organization commissioned ""Pinturas de Tamayo"" (the composition by Steven Stucky)?",Chicago Symphony Orchestra,The San Francisco Symphony.,Los Angeles Philharmonic.,INCORRECT,different_factual_error
+639,"Who parachuted off the 267 m high (876-ft) New River Gorge Bridge near Fayetteville, West Virginia, USA, on 19 October 2013, at the age of 84 years and 37 days?",Donald Cripps,The person was **Dorothy Hottinger**.,"The assistant got stuck repeating. We need to find the correct answer. Let's research memory: The 2013 jump from New River Gorge Bridge by an 84-year-old. I recall reading about a 84-year-old man named ""John 'Jack' something"" but maybe it's ""John 'Jack' something""? Actually, I think the name is ""John 'Jack' something""? Let's search memory: The 2013 jump was by ""John 'Jack' something"" who was a retired teacher from West Virginia. Wait, maybe it's ""John 'Jack' something""? I'm not sure.
+
+Let's think of known older BASE jumpers: There's ""John 'Jack' something"" but also ""John 'Jack' something"" but I'm not sure.
+
+Let's recall: The 2013 jump was by ""John 'Jack' something"" who was a retired teacher from West Virginia. Actually, I think the name was ""John 'Jack' something""? This is not helpful.
+
+Let's step back: The question likely refers to a known event: On 19 Oct 2013, an 84-year-old man named ""John 'Jack' something"" jumped from the New River Gorge Bridge. Actually, I think the name was ""John 'Jack' something""? I'm not sure.
+
+Let's search memory: The 2013 jump was by ""John 'Jack' something"" who was a retired teacher from West Virginia. Actually, I think the name was ""John 'Jack' something""? This is not helpful.
+
+Let's think of known older BASE jumpers: There's ""John 'Jack' something"" but also ""John 'Jack' something"" but I'm not sure.
+
+This is going nowhere. Let's recall: The 2013 jump was by ""John 'Jack' something"" who was a retired teacher from West Virginia. Actually, I think the name was ""John 'Jack' something""? I'm not sure.
+
+We need to find the correct name. Let's recall: The 2013 jump from New River Gorge Bridge by an 84-year-old was by ""John 'Jack' something""? Actually, I think the name was ""John 'Jack' something""? I'm not sure.
+
+Let's search memory: The 2013 jump was by ""John 'Jack' something""? Actually, I think the name was ""John 'Jack' something""? I'm not sure.
+
+This is not working. Let's think of known older BASE jumpers: There's ""John 'Jack' something""? I'm not sure.
+
+Let's recall: The 2013 jump was by ""John 'Jack' something""? Actually, I think the name was ""John 'Jack' something""? I'm not sure.
+
+Ok, let's step back. Maybe the person is ""John 'Jack' something""? Actually, I think the name is ""John 'Jack' something""? I'm not sure.
+
+This is not helpful. Let's think of known older BASE jumpers: There's ""John 'Jack' something""? I'm not sure.
+
+Ok, I'm stuck. Let's recall: The 2013 jump was by ""John 'Jack' something""? Actually, I think the name is ""John 'Jack' something""? I'm not sure.
+
+This is not helpful. Let's think of known older BASE jumpers: There's ""John 'Jack' something""? I'm not sure.
+
+Ok, I'm stuck.I don't know.",CORRECT,indeterminate
+669,"What place did the album ""I Am... Sasha Fierce"" by Beyoncé place in the year-end 2010 Australian Albums (ARIA) charts?",61,"The album ""I Am... Sasha Fierce"" placed 11th in the year-end 2010 Australian Albums (ARIA) charts.",71st place.,INCORRECT,different_factual_error
+712,What was the name of Andrew Dickson White's cousin who became an artist of the Luminism style and Hudson River School?,Edwin White,The name of Andrew Dickson White's cousin was John Frederick Kensett.,John White.,INCORRECT,different_factual_error
+843,From which Long Island high school did New York State Representative Nick LaLota graduate?,St. Anthony's High School,Nick LaLota graduated from Sachem North High School.,"St. John the Baptist High School in Hempstead, New York.",CORRECT,different_factual_error
+853,What Little League did Johnny Damon play baseball in as a child before junior high school?,South Orange Little League,"Johnny Damon played in the Peabody Little League in Peabody, Massachusetts.",He played in the Bronx Little League before moving on to junior‑high baseball.,CORRECT,different_factual_error
+919,In what city and country was the 2003 Badminton Asia Championships held?,"Jakarta, Indonesia","Hyderabad, India","Kuala Lumpur, Malaysia",CORRECT,different_factual_error
+966,The Miners' Union Hall in British Columbia was designed by an architect practicing in which American city?,Los Angeles,Seattle,Seattle.,INCORRECT,same_factual_error
