@@ -1,0 +1,51 @@
+﻿dataset_index,question,reference_label,self_prediction,cross_prediction
+170,What is Patrick Mulvany's occupation?,INCORRECT,CORRECT,INCORRECT
+1477,What genre is Exposed?,INCORRECT,CORRECT,INCORRECT
+1671,What genre is André Watts?,CORRECT,CORRECT,CORRECT
+1718,What genre is Monk?,CORRECT,CORRECT,CORRECT
+1799,What genre is Death and All His Friends?,INCORRECT,CORRECT,INCORRECT
+1862,What genre is Compass?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+2279,What genre is Flavio?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+2546,What genre is Network?,INCORRECT,CORRECT,CORRECT
+2911,Who is the father of Skyline?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+2988,Who is the father of Dahyabhai Patel?,NOT_ATTEMPTED,CORRECT,INCORRECT
+3320,In what country is Pir Hayati?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+3361,In what country is Freedom?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+3409,In what country is Vapa?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+3437,In what country is Volvic?,CORRECT,CORRECT,CORRECT
+4118,In what country is Robinson?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+4226,Who was the producer of Hand Held?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+4461,Who was the producer of If Only?,INCORRECT,CORRECT,CORRECT
+4688,Who was the producer of Michael?,NOT_ATTEMPTED,CORRECT,INCORRECT
+5164,Who was the producer of Around the World?,INCORRECT,CORRECT,INCORRECT
+5210,Who was the producer of Saturday Morning?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+5304,Who was the producer of The Slim Shady LP?,CORRECT,CORRECT,CORRECT
+5690,Who was the director of Thank You?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+5867,Who was the director of The System?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+5986,Who was the director of No Name on the Bullet?,INCORRECT,CORRECT,CORRECT
+6002,Who was the director of Back to Back?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+6145,Who was the director of The Castle?,INCORRECT,CORRECT,CORRECT
+6382,Who was the director of Faith?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+6709,Who was the director of The Well?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+6758,Who was the director of Without?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+6796,Who was the director of The Lawyer?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+7057,Who was the director of Barry McKenzie Holds His Own?,CORRECT,CORRECT,CORRECT
+7752,What is Hamilton the capital of?,INCORRECT,CORRECT,INCORRECT
+7874,What is Harper the capital of?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+8205,Who was the screenwriter for Benaam?,INCORRECT,CORRECT,INCORRECT
+8431,Who was the screenwriter for True Crime?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+8509,Who was the screenwriter for Café Express?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+8898,Who was the screenwriter for Seed?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+9350,Who was the screenwriter for Mash-Up?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+9642,Who was the screenwriter for Guddu Rangeela?,INCORRECT,INCORRECT,INCORRECT
+10235,Who was the composer of Saturday Night?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+10356,Who was the composer of The Social Network?,INCORRECT,CORRECT,CORRECT
+10599,Who was the composer of Fascinating Rhythm?,INCORRECT,CORRECT,CORRECT
+10713,Who was the composer of Burn?,INCORRECT,CORRECT,INCORRECT
+11036,What is the religion of James Albert Duffy?,NOT_ATTEMPTED,CORRECT,INCORRECT
+11398,What sport does Willie McCarter play?,NOT_ATTEMPTED,CORRECT,INCORRECT
+11533,What sport does 1994–95 Belgian First Division play?,CORRECT,CORRECT,CORRECT
+12572,Who is the author of Bloodtide?,INCORRECT,CORRECT,CORRECT
+13499,Who is the mother of Margaret of Sicily?,INCORRECT,CORRECT,INCORRECT
+13653,What is the capital of Canton of Geneva?,CORRECT,CORRECT,CORRECT
+14025,What is the capital of Centre?,INCORRECT,CORRECT,CORRECT

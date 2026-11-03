@@ -1,0 +1,51 @@
+﻿dataset_index,question,reference_label,self_prediction,cross_prediction
+341,What kind of work does Josef Starzer do?,NOT_ATTEMPTED,CORRECT,INCORRECT
+2955,Where is Chabua Air Force Station located?,CORRECT,CORRECT,CORRECT
+3342,"Where is Zadębie, Pomeranian Voivodeship located?",INCORRECT,CORRECT,CORRECT
+3437,Where is Kani Tumar located?,NOT_ATTEMPTED,CORRECT,INCORRECT
+3598,What type of music does The Guns of Brixton play?,INCORRECT,CORRECT,INCORRECT
+3724,What type of music does Foxboro Hot Tubs play?,CORRECT,CORRECT,CORRECT
+4152,What type of music does Ann Wilson play?,CORRECT,CORRECT,CORRECT
+4559,Where is the headquarter of Sapientis?,NOT_ATTEMPTED,CORRECT,INCORRECT
+4586,Where is the headquarter of French Football Federation?,CORRECT,CORRECT,CORRECT
+4956,Where is the headquarter of Heavy Seas Beer?,NOT_ATTEMPTED,CORRECT,INCORRECT
+5093,Where is the headquarter of Loyola Marymount University?,CORRECT,CORRECT,CORRECT
+5822,Which country is Si Rattana located in?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+5977,Which country is National Highway 146 located in?,CORRECT,CORRECT,CORRECT
+6641,Who was True Dare Kiss created by?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+6722,Who was Monk created by?,CORRECT,CORRECT,CORRECT
+6819,Who was Adoration of the Magi created by?,INCORRECT,CORRECT,INCORRECT
+6874,Who was The Valpinçon Bather created by?,CORRECT,CORRECT,CORRECT
+8236,Who performed Guitar?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+8452,Which company is HMS Charger produced by?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+8923,Which company is AK-47 produced by?,CORRECT,CORRECT,CORRECT
+9376,Which company is HMCS Chambly produced by?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+10328,Where was Adolf Holtzmann born?,NOT_ATTEMPTED,CORRECT,INCORRECT
+10421,Where did Bill Harris die?,NOT_ATTEMPTED,CORRECT,INCORRECT
+10608,Where did Peter Tempesta die?,NOT_ATTEMPTED,CORRECT,INCORRECT
+11381,"Who is Francis Greville, 5th Earl of Warwick married to?",INCORRECT,INCORRECT,INCORRECT
+11735,Who is Maryna Poroshenko married to?,CORRECT,CORRECT,CORRECT
+11960,Who is Nokutela Dube married to?,INCORRECT,CORRECT,CORRECT
+11973,Who is Regelinda married to?,NOT_ATTEMPTED,CORRECT,INCORRECT
+12004,Who is Alice White married to?,NOT_ATTEMPTED,CORRECT,INCORRECT
+12291,Who is Yves Montand married to?,INCORRECT,INCORRECT,INCORRECT
+12765,What music label is Tom Evans represented by?,NOT_ATTEMPTED,CORRECT,INCORRECT
+13419,Where is DIL-161 Site located?,NOT_ATTEMPTED,CORRECT,INCORRECT
+13517,Where is Iraq War located?,CORRECT,CORRECT,CORRECT
+13592,Where is Carnival of Basel located?,CORRECT,CORRECT,CORRECT
+14114,Where is Jacmel Film Festival located?,CORRECT,CORRECT,CORRECT
+15505,Who is Silver Deputy's child?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+15748,Who is Thane Bettany's child?,NOT_ATTEMPTED,CORRECT,INCORRECT
+16013,Who is Robert Brustein's child?,INCORRECT,INCORRECT,CORRECT
+16411,Which language was Vreme brutalnih dobronamernika written in?,CORRECT,CORRECT,CORRECT
+16862,"Which language was O, min Carl Gustaf written in?",CORRECT,CORRECT,CORRECT
+17018,What position does Fadel Brahami play?,CORRECT,CORRECT,INCORRECT
+17796,What position does Mac Percival play?,NOT_ATTEMPTED,CORRECT,INCORRECT
+18701,Which country was Allman Brothers Band created in?,INCORRECT,CORRECT,CORRECT
+19284,Who is the author of White Wolf?,INCORRECT,CORRECT,INCORRECT
+20471,Where was Thomas McKnight educated?,NOT_ATTEMPTED,CORRECT,INCORRECT
+20712,Where was John Packer educated?,INCORRECT,CORRECT,INCORRECT
+20884,Where was Maura Johnston educated?,NOT_ATTEMPTED,CORRECT,INCORRECT
+21198,Where was Loud founded?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+21427,Where was The Freezing Fog founded?,NOT_ATTEMPTED,INCORRECT,INCORRECT
+21747,Where was The Prodigy founded?,INCORRECT,CORRECT,INCORRECT

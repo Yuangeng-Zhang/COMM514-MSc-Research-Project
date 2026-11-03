@@ -1,0 +1,35 @@
+{
+  "dataset": "popqa",
+  "generator_model": "gemma4:cloud",
+  "cross_verifier_model": "gpt-oss:20b-cloud",
+  "reference_evaluator_model": "gpt-oss:20b-cloud",
+  "reference_counts": {
+    "CORRECT": 7,
+    "INCORRECT": 17,
+    "NOT_ATTEMPTED": 26
+  },
+  "binary_metric_scope": "Reference labels CORRECT and INCORRECT only. NOT_ATTEMPTED is reported separately and excluded from binary metrics.",
+  "positive_class": "INCORRECT",
+  "self": {
+    "cases": 24,
+    "tp": 1,
+    "tn": 7,
+    "fp": 0,
+    "fn": 16,
+    "precision": 1.0,
+    "recall": 0.058823529411764705,
+    "f1": 0.1111111111111111,
+    "accuracy": 0.3333333333333333
+  },
+  "cross": {
+    "cases": 24,
+    "tp": 9,
+    "tn": 7,
+    "fp": 0,
+    "fn": 8,
+    "precision": 1.0,
+    "recall": 0.5294117647058824,
+    "f1": 0.6923076923076924,
+    "accuracy": 0.6666666666666666
+  }
+}

@@ -1,0 +1,51 @@
+﻿dataset_name,dataset_index,question,reference_answer,acceptable_answers,relation,source_file,source_index
+entityquestions,11735,Who is Maryna Poroshenko married to?,Petro Poroshenko,"[""Petro Poroshenko""]",P26,P26.dev.json,357
+entityquestions,3598,What type of music does The Guns of Brixton play?,reggae,"[""reggae""]",P136,P136.dev.json,89
+entityquestions,20712,Where was John Packer educated?,Keble College,"[""Keble College"", ""The Manchester Grammar School""]",P69,P69.dev.json,804
+entityquestions,21427,Where was The Freezing Fog founded?,Manchester,"[""Manchester""]",P740,P740.dev.json,519
+entityquestions,6819,Who was Adoration of the Magi created by?,Andrea della Robbia,"[""Andrea della Robbia""]",P170,P170.dev.json,310
+entityquestions,5093,Where is the headquarter of Loyola Marymount University?,Los Angeles,"[""Los Angeles""]",P159,P159.dev.json,584
+entityquestions,13517,Where is Iraq War located?,Iraq,"[""Iraq""]",P276,P276.dev.json,139
+entityquestions,13592,Where is Carnival of Basel located?,Basel,"[""Basel""]",P276,P276.dev.json,214
+entityquestions,21198,Where was Loud founded?,Bradford,"[""Bradford""]",P740,P740.dev.json,290
+entityquestions,11973,Who is Regelinda married to?,"Herman I, Margrave of Meissen","[""Herman I, Margrave of Meissen""]",P26,P26.dev.json,595
+entityquestions,14114,Where is Jacmel Film Festival located?,Jacmel,"[""Jacmel""]",P276,P276.dev.json,736
+entityquestions,8923,Which company is AK-47 produced by?,Kalashnikov Concern,"[""Kalashnikov Concern""]",P176,P176.dev.json,545
+entityquestions,18701,Which country was Allman Brothers Band created in?,United States of America,"[""United States of America""]",P495,P495.dev.json,793
+entityquestions,10421,Where did Bill Harris die?,Florida,"[""Florida""]",P20,P20.dev.json,43
+entityquestions,10328,Where was Adolf Holtzmann born?,Karlsruhe,"[""Karlsruhe""]",P19,P19.dev.json,950
+entityquestions,10608,Where did Peter Tempesta die?,Montecatini Terme,"[""Montecatini Terme""]",P20,P20.dev.json,230
+entityquestions,15748,Who is Thane Bettany's child?,Paul Bettany,"[""Paul Bettany""]",P40,P40.dev.json,485
+entityquestions,8452,Which company is HMS Charger produced by?,VT Group,"[""VT Group""]",P176,P176.dev.json,74
+entityquestions,341,What kind of work does Josef Starzer do?,composer,"[""composer""]",P106,P106.dev.json,341
+entityquestions,3724,What type of music does Foxboro Hot Tubs play?,punk rock,"[""punk rock"", ""garage rock"", ""rock music""]",P136,P136.dev.json,215
+entityquestions,3342,"Where is Zadębie, Pomeranian Voivodeship located?",Gmina Rzeczenica,"[""Gmina Rzeczenica""]",P131,P131.dev.json,833
+entityquestions,12004,Who is Alice White married to?,Sy Bartlett,"[""Sy Bartlett""]",P26,P26.dev.json,626
+entityquestions,9376,Which company is HMCS Chambly produced by?,Canadian Vickers,"[""Canadian Vickers""]",P176,P176.dev.json,998
+entityquestions,12291,Who is Yves Montand married to?,Simone Signoret,"[""Simone Signoret""]",P26,P26.dev.json,913
+entityquestions,6874,Who was The Valpinçon Bather created by?,Jean Auguste Dominique Ingres,"[""Jean Auguste Dominique Ingres""]",P170,P170.dev.json,365
+entityquestions,6641,Who was True Dare Kiss created by?,Debbie Horsfield,"[""Debbie Horsfield""]",P170,P170.dev.json,132
+entityquestions,16411,Which language was Vreme brutalnih dobronamernika written in?,Serbian,"[""Serbian""]",P407,P407.dev.json,148
+entityquestions,13419,Where is DIL-161 Site located?,Katmai National Park and Preserve,"[""Katmai National Park and Preserve""]",P276,P276.dev.json,41
+entityquestions,16862,"Which language was O, min Carl Gustaf written in?",Swedish,"[""Swedish""]",P407,P407.dev.json,599
+entityquestions,12765,What music label is Tom Evans represented by?,Apple,"[""Apple""]",P264,P264.dev.json,387
+entityquestions,17796,What position does Mac Percival play?,placekicker,"[""placekicker""]",P413,P413.dev.json,888
+entityquestions,19284,Who is the author of White Wolf?,David Gemmell,"[""David Gemmell""]",P50,P50.dev.json,376
+entityquestions,3437,Where is Kani Tumar located?,Akhtachi Rural District,"[""Akhtachi Rural District""]",P131,P131.dev.json,928
+entityquestions,4559,Where is the headquarter of Sapientis?,San Juan,"[""San Juan""]",P159,P159.dev.json,50
+entityquestions,17018,What position does Fadel Brahami play?,midfielder,"[""midfielder""]",P413,P413.dev.json,110
+entityquestions,20471,Where was Thomas McKnight educated?,Columbia University,"[""Columbia University"", ""Wesleyan University""]",P69,P69.dev.json,563
+entityquestions,5822,Which country is Si Rattana located in?,Thailand,"[""Thailand""]",P17,P17.dev.json,313
+entityquestions,6722,Who was Monk created by?,Andy Breckman,"[""Andy Breckman""]",P170,P170.dev.json,213
+entityquestions,8236,Who performed Guitar?,Ewan Dobson,"[""Ewan Dobson""]",P175,P175.dev.json,858
+entityquestions,2955,Where is Chabua Air Force Station located?,Chabua,"[""Chabua""]",P131,P131.dev.json,446
+entityquestions,15505,Who is Silver Deputy's child?,Silverbulletday,"[""Silverbulletday""]",P40,P40.dev.json,242
+entityquestions,11381,"Who is Francis Greville, 5th Earl of Warwick married to?","Daisy Greville, Countess of Warwick","[""Daisy Greville, Countess of Warwick""]",P26,P26.dev.json,3
+entityquestions,5977,Which country is National Highway 146 located in?,India,"[""India""]",P17,P17.dev.json,468
+entityquestions,4586,Where is the headquarter of French Football Federation?,Paris,"[""Paris""]",P159,P159.dev.json,77
+entityquestions,4956,Where is the headquarter of Heavy Seas Beer?,Baltimore,"[""Baltimore""]",P159,P159.dev.json,447
+entityquestions,11960,Who is Nokutela Dube married to?,John Langalibalele Dube,"[""John Langalibalele Dube""]",P26,P26.dev.json,582
+entityquestions,16013,Who is Robert Brustein's child?,Peter Beinart,"[""Peter Beinart""]",P40,P40.dev.json,750
+entityquestions,4152,What type of music does Ann Wilson play?,rock music,"[""rock music""]",P136,P136.dev.json,643
+entityquestions,21747,Where was The Prodigy founded?,Braintree,"[""Braintree""]",P740,P740.dev.json,839
+entityquestions,20884,Where was Maura Johnston educated?,Northwestern University,"[""Northwestern University""]",P69,P69.dev.json,976

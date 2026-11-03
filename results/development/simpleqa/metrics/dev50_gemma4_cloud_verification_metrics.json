@@ -1,0 +1,35 @@
+{
+  "dataset": "simpleqa",
+  "generator_model": "gemma4:cloud",
+  "cross_verifier_model": "gpt-oss:20b-cloud",
+  "reference_evaluator_model": "gpt-oss:20b-cloud",
+  "reference_counts": {
+    "CORRECT": 2,
+    "INCORRECT": 35,
+    "NOT_ATTEMPTED": 13
+  },
+  "binary_metric_scope": "Reference labels CORRECT and INCORRECT only. NOT_ATTEMPTED is reported separately and excluded from binary metrics.",
+  "positive_class": "INCORRECT",
+  "self": {
+    "cases": 37,
+    "tp": 6,
+    "tn": 2,
+    "fp": 0,
+    "fn": 29,
+    "precision": 1.0,
+    "recall": 0.17142857142857143,
+    "f1": 0.2926829268292683,
+    "accuracy": 0.21621621621621623
+  },
+  "cross": {
+    "cases": 37,
+    "tp": 16,
+    "tn": 2,
+    "fp": 0,
+    "fn": 19,
+    "precision": 1.0,
+    "recall": 0.45714285714285713,
+    "f1": 0.6274509803921569,
+    "accuracy": 0.4864864864864865
+  }
+}

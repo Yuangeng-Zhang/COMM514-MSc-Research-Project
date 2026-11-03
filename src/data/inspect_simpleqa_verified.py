@@ -3,7 +3,7 @@ import csv
 from collections import Counter
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_PATH = PROJECT_ROOT / "data" / "raw" / "simpleqa_verified.csv"
 
 

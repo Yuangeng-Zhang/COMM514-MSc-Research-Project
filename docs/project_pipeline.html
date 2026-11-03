@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMM514 Project Pipeline</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: white;
+            color: black;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+
+        .diagram {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media print {
+            @page {
+                size: A4 landscape;
+                margin: 10mm;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            h1 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>COMM514 Research Project: Experimental Pipeline</h1>
+
+<div class="diagram">
+<pre class="mermaid">
+
+flowchart TB
+
+classDef normal fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1px;
+classDef important fill:#ffffff,stroke:#000000,color:#000000,stroke-width:2px;
+
+subgraph DATASETS["1. Benchmark Datasets"]
+direction LR
+S["SimpleQA"]:::normal
+P["PopQA"]:::normal
+E["EntityQuestions"]:::normal
+end
+
+subgraph PREPARATION["2. Data Preparation"]
+direction LR
+SP["prepare_simpleqa_dev_set.py"]:::normal
+PP["prepare_popqa_dev_set.py"]:::normal
+EP["prepare_entityquestions_dev_set.py"]:::normal
+end
+
+STANDARD["Standardised Dev50<br/>dataset_name<br/>dataset_index<br/>question<br/>reference_answer<br/>acceptable_answers"]:::important
+
+GEN["generate_dev_answers.py<br/>Generator: Gemma4"]:::important
+
+ANSWER["Candidate Answers"]:::normal
+
+subgraph VERIFICATION["3. Verification"]
+direction LR
+SELF["Self-verification<br/>Gemma4"]:::normal
+CROSS["Cross-verification<br/>GPT-OSS"]:::normal
+end
+
+REF["evaluate_reference_answers.py<br/>Reference evaluator: GPT-OSS<br/>Uses benchmark reference"]:::important
+
+SELFOUT["Self predictions<br/>CORRECT / INCORRECT"]:::normal
+CROSSOUT["Cross predictions<br/>CORRECT / INCORRECT"]:::normal
+REFOUT["Reference-based labels<br/>CORRECT / INCORRECT / NOT_ATTEMPTED"]:::normal
+
+EVAL["evaluate_verification.py<br/>Match by dataset_index"]:::important
+
+METRICS["Verification Metrics<br/>TP / TN / FP / FN<br/>Precision / Recall / F1 / Accuracy"]:::normal
+
+COMPARE["Cross-Dataset Comparison<br/>SimpleQA vs PopQA vs EntityQuestions"]:::important
+
+RQ1["RQ1<br/>How effective is self-verification?"]:::normal
+
+RQ2["RQ2<br/>Does cross-verification improve error detection<br/>across different datasets?"]:::normal
+
+
+S --> SP
+P --> PP
+E --> EP
+
+SP --> STANDARD
+PP --> STANDARD
+EP --> STANDARD
+
+STANDARD --> GEN
+GEN --> ANSWER
+
+ANSWER --> SELF
+ANSWER --> CROSS
+ANSWER --> REF
+
+SELF --> SELFOUT
+CROSS --> CROSSOUT
+REF --> REFOUT
+
+SELFOUT --> EVAL
+CROSSOUT --> EVAL
+REFOUT --> EVAL
+
+EVAL --> METRICS
+METRICS --> COMPARE
+
+COMPARE --> RQ1
+COMPARE --> RQ2
+
+</pre>
+</div>
+
+
+<script type="module">
+    import mermaid from
+    "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+
+    mermaid.initialize({
+        startOnLoad: true,
+        theme: "base",
+        themeVariables: {
+            background: "#ffffff",
+            primaryColor: "#ffffff",
+            primaryTextColor: "#000000",
+            primaryBorderColor: "#000000",
+            lineColor: "#000000",
+            secondaryColor: "#ffffff",
+            tertiaryColor: "#ffffff",
+            clusterBkg: "#ffffff",
+            clusterBorder: "#000000",
+            fontFamily: "Arial"
+        },
+        flowchart: {
+            curve: "linear",
+            htmlLabels: true
+        }
+    });
+</script>
+
+</body>
+</html>
